@@ -24,6 +24,7 @@ function tell(question) {
 
   const fortune = selectRandomFortune();
   return Promise.resolve(fortune);
+  
 }
 
 module.exports = { welcome, goodbye, tell };
